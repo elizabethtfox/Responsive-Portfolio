@@ -119,6 +119,7 @@ footer, .push{
     border-top: 5px solid #4aaaa5;
 }
 
+
 /*media queries*/
 @media only screen and (max-width:980px) {
     #about {
@@ -189,3 +190,4 @@ footer, .push{
     }
 
 }
+

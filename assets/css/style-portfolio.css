@@ -76,13 +76,17 @@ hr {
     padding: 0;
 }
 
-#words{
-    padding: 17px;
+.caption{
+    display: block;
+    background-color: pink;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 27px;
+    font-weight: bold;
+    padding-left: 10px;
     line-height: 1.7;
-    text-indent: 20px;
+    width: 43%;
+    margin-bottom: 10px;
 }
 
 #me{
