@@ -120,3 +120,75 @@ footer, .push{
     font-size: 12px;
     border-top: 5px solid #4aaaa5;
 }
+
+
+/*media queries*/
+@media only screen and (max-width:980px) {
+    #about {
+        width:100%;
+    }
+    .aside {
+        width:70%;
+        clear: both
+    }
+    .footer{
+        width:100%;
+    }
+
+    #me{
+        max-width:100%;
+    }
+
+    #words{
+        float:left;
+        overflow:auto;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+    #about {
+        width:100%;
+    }
+    .aside {
+        width:100%;
+
+    }
+    .footer{
+        width:100%;
+    }
+
+    #me{
+        max-width:100%;
+    }
+
+    #words{
+        float:left;
+        overflow:auto;
+    }
+
+}
+
+@media only screen and (max-width:640px) {
+    /* For mobile phones: */
+    #about {
+        width:100%;
+    }
+    .aside {
+        width:70%;
+        clear: both
+    }
+    .footer{
+        width:100%;
+    }
+
+    #me{
+        max-width:100%;
+    }
+
+    #words{
+        float:left;
+        overflow:auto;
+    }
+
+}
